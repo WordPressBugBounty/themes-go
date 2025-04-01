@@ -2,9 +2,9 @@
 Contributors: godaddy, richtabor, eherman24, jrtashjian, kopepasah, olivierlafleur
 Tags: block-styles, custom-colors, custom-logo, custom-menu, e-commerce, editor-style, one-column, theme-options, threaded-comments, translation-ready, wide-blocks
 Requires at least: 5.0
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 1.8.11
+Stable tag: 1.8.13
 License: GPL-2.0-only
 License URI: https://www.gnu.org/licenses/license-list.html#GPLv2
 
@@ -108,6 +108,10 @@ List of bespoke icons:
 - Comments icon
 
 == Changelog ==
-= 1.8.10 / 2024-04-02 =
+= 1.8.13 / 2025-04-01 =
 ### Updates
-- Bump the tested up to version to 6.5. [#909](https://github.com/godaddy-wordpress/go/pull/909)
+- Avoid adding onload attribute to stylesheet when serving AMP response. [#917](https://github.com/godaddy-wordpress/go/pull/917)
+- Update workflows to use WordPress 6.7 image. [#920](https://github.com/godaddy-wordpress/go/pull/920)
+- Add support for Bluesky in the social media options. [#922](https://github.com/godaddy-wordpress/go/pull/922)
+- Update actions/upload-artifact. [#923](https://github.com/godaddy-wordpress/go/pull/923)
+
