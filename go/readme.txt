@@ -4,7 +4,7 @@ Tags: block-styles, custom-colors, custom-logo, custom-menu, e-commerce, editor-
 Requires at least: 5.0
 Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 1.8.13
+Stable tag: 1.8.15
 License: GPL-2.0-only
 License URI: https://www.gnu.org/licenses/license-list.html#GPLv2
 
@@ -27,6 +27,10 @@ Go is an innovative, Gutenberg-first WordPress theme, hyper-focused on empowerin
 **Contributing**
 
 You can fork and contribute back to Go by visiting [our public repo on GitHub](https://github.com/godaddy-wordpress/go).
+
+**Privacy Policy**
+
+When the Go theme is deactivated users are provided with an opportunity to provide feedback as to why they chose to switch themes. This form is optional and no data is collected until the form is submitted. If a user chooses to submit the form, the following information will be collected, so we can continue to iterate and improve on the Go theme: The reason for deactivation, domain, Go theme version, hostname, site language, WordPress version and any text responses you provided. **Note:** Users can easily opt-out by clicking on 'Skip and Switch Theme'.
 
 == Installation ==
 
@@ -108,10 +112,7 @@ List of bespoke icons:
 - Comments icon
 
 == Changelog ==
-= 1.8.13 / 2025-04-01 =
+= 1.8.15 / 2025-04-08 =
 ### Updates
-- Avoid adding onload attribute to stylesheet when serving AMP response. [#917](https://github.com/godaddy-wordpress/go/pull/917)
-- Update workflows to use WordPress 6.7 image. [#920](https://github.com/godaddy-wordpress/go/pull/920)
-- Add support for Bluesky in the social media options. [#922](https://github.com/godaddy-wordpress/go/pull/922)
-- Update actions/upload-artifact. [#923](https://github.com/godaddy-wordpress/go/pull/923)
-
+- Refactor where `register_meta` is hooked, to resolve translation warnings. [#928](https://github.com/godaddy-wordpress/go/pull/928)
+- Update `readme.txt` with information about data collection on theme deactivation. [#929](https://github.com/godaddy-wordpress/go/pull/929)
