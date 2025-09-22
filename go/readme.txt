@@ -4,7 +4,7 @@ Tags: block-styles, custom-colors, custom-logo, custom-menu, e-commerce, editor-
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 5.6
-Stable tag: 1.8.17
+Stable tag: 1.8.18
 License: GPL-2.0-only
 License URI: https://www.gnu.org/licenses/license-list.html#GPLv2
 
@@ -112,8 +112,6 @@ List of bespoke icons:
 - Comments icon
 
 == Changelog ==
-= 1.8.16 / 2025-07-22 =
+= 1.8.18 / 2025-09-22 =
 ### Updates
-- Bump Woo cart template to version 10.0.0. [#932](https://github.com/godaddy-wordpress/go/pull/932)
-- Added `aria-label` and `aria-expanded` attributes to the mobile menu carets. [#933](https://github.com/godaddy-wordpress/go/pull/933)
-- Refreshed the Twitter and Bluesky icons. [#934](https://github.com/godaddy-wordpress/go/pull/934)
+- Fix WooCommerce Fatal Error. [#943](https://github.com/godaddy-wordpress/go/pull/943)
